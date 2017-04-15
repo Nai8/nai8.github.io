@@ -8,11 +8,11 @@
     <atom:link href="/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description>Simple and Freedom</description>
-    <pubDate>Sat, 15 Apr 2017 10:12:08 GMT</pubDate>
+    <pubDate>Sat, 15 Apr 2017 11:01:39 GMT</pubDate>
     <generator>http://hexo.io/</generator>
     
     <item>
-      <title>飞飞各职业</title>
+      <title>飞飞各职业以及物品属性</title>
       <link>http://nai-8.com/2017/04/15/%E9%A3%9E%E9%A3%9E%E5%90%84%E8%81%8C%E4%B8%9A/</link>
       <guid>http://nai-8.com/2017/04/15/%E9%A3%9E%E9%A3%9E%E5%90%84%E8%81%8C%E4%B8%9A/</guid>
       <pubDate>Sat, 15 Apr 2017 09:21:35 GMT</pubDate>
@@ -23,10 +23,7 @@
       </description>
       
       <content:encoded><![CDATA[<h2 id="职业"><a href="#职业" class="headerlink" title="职业"></a>职业</h2><h3 id="初始职业"><a href="#初始职业" class="headerlink" title="初始职业"></a>初始职业</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">初心者：JOB_VAGRANT</div></pre></td></tr></table></figure>
-<h3 id="一转"><a href="#一转" class="headerlink" title="一转"></a>一转</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">战士：JOB_MERCENARY</div></pre></td></tr></table></figure>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">魔导师：JOB_MAGICIAN</div></pre></td></tr></table></figure>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">圣职者：JOB_ASSIST</div></pre></td></tr></table></figure>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">弓箭手：JOB_ACROBAT</div></pre></td></tr></table></figure>
+<h3 id="一转"><a href="#一转" class="headerlink" title="一转"></a>一转</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">战士：JOB_MERCENARY</div><div class="line">魔导师：JOB_MAGICIAN</div><div class="line">圣职者：JOB_ASSIST</div><div class="line">弓箭手：JOB_ACROBAT</div></pre></td></tr></table></figure>
 <h3 id="二转"><a href="#二转" class="headerlink" title="二转"></a>二转</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">刀锋战士：JOB_BILLPOSTER_HERO</div></pre></td></tr></table></figure>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">骑 士：JOB_KNIGHT_HERO</div></pre></td></tr></table></figure>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">元素使者：JOB_ELEMENTOR_HERO</div></pre></td></tr></table></figure>
@@ -57,6 +54,14 @@
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">自然神使</div></pre></td></tr></table></figure>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">爆裂射手</div></pre></td></tr></table></figure>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">风之埋伏者</div></pre></td></tr></table></figure>
+<h2 id="物品属性"><a href="#物品属性" class="headerlink" title="物品属性"></a>物品属性</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line">DST_STR			增加力量</div><div class="line">DST_STA			增加体力</div><div class="line">DST_INT			增加智力</div><div class="line">DST_DEX			增加敏捷</div><div class="line">DST_STAT_ALLUP		增加全属性</div></pre></td></tr></table></figure>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">DST_HP_MAX			最大HP增加</div><div class="line">DST_MP_MAX			最大MP增加</div><div class="line">DST_FP_MAX			最大FP增加</div></pre></td></tr></table></figure>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">DST_HP_MAX_RATE		HP增加率</div><div class="line">DST_MP_MAX_RATE		MP增加率</div><div class="line">DST_FP_MAX_RATE		FP增加率</div></pre></td></tr></table></figure>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">DST_HP_RECOVERY		恢复HP</div><div class="line">DST_MP_RECOVERY		恢复MP</div><div class="line">DST_FP_RECOVERY		回复FP</div></pre></td></tr></table></figure>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">DST_KILL_HP			死亡时恢复HP</div><div class="line">DST_KILL_MP			死亡时恢复MP</div><div class="line">DST_KILL_FP			死亡时恢复FP</div></pre></td></tr></table></figure>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div></pre></td><td class="code"><pre><div class="line">DST_ATKPOWER_RATE		攻击增加率</div><div class="line">DST_ADJDEF_RATE		防御增加率</div><div class="line">DST_CHR_CHANCECRITICAL	爆击增加率</div><div class="line">DST_CRITICAL_BONUS		命中伤害增加率</div><div class="line">DST_SPELL_RATE		增加魔法施展时间减少率</div><div class="line">DST_BLOCK_MELEE		近距离隔档增加率</div><div class="line">DST_BLOCK_RANGE		远距离隔档增加率</div><div class="line">DST_ATTACKSPEED		攻击速度增加率</div><div class="line">DST_REFLECT_DAMAGE		反射动作增加率</div><div class="line">DST_SPEED			移动速度增加率</div><div class="line">DST_HAWKEYE_RATE		施展距离增加率</div></pre></td></tr></table></figure>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line">DST_STOP_MOVEMENT		束博</div><div class="line">DST_IMMUNITY		免疫能力</div><div class="line">DST_ADJDEF			增加防御力</div><div class="line">DST_ATKPOWER		增加攻击力</div><div class="line">DST_CHR_DMG			追加伤害</div><div class="line">DST_GIFTBOX			礼盒功能</div></pre></td></tr></table></figure>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line">DST_MASTRY_EARTH		地+%</div><div class="line">DST_MASTRY_FIRE		火+%</div><div class="line">DST_MASTRY_WATER		水+%</div><div class="line">DST_MASTRY_ELECTRICITY	电+%</div><div class="line">DST_MASTRY_WIND		风+%</div></pre></td></tr></table></figure>
 <p>Nai8’s Blog|版权所有，违者必究|如未注明，均为原创。 <a href="http://nai-8.com/2017/04/15/飞飞各职业/">http://nai-8.com/2017/04/15/飞飞各职业/</a> . - 转载请注明原文链接</p>
 ]]></content:encoded>
       
