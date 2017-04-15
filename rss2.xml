@@ -8,8 +8,60 @@
     <atom:link href="/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description>Simple and Freedom</description>
-    <pubDate>Fri, 14 Apr 2017 04:17:23 GMT</pubDate>
+    <pubDate>Sat, 15 Apr 2017 10:12:08 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>飞飞各职业</title>
+      <link>http://nai-8.com/2017/04/15/%E9%A3%9E%E9%A3%9E%E5%90%84%E8%81%8C%E4%B8%9A/</link>
+      <guid>http://nai-8.com/2017/04/15/%E9%A3%9E%E9%A3%9E%E5%90%84%E8%81%8C%E4%B8%9A/</guid>
+      <pubDate>Sat, 15 Apr 2017 09:21:35 GMT</pubDate>
+      <description>
+      
+        &lt;h2 id=&quot;职业&quot;&gt;&lt;a href=&quot;#职业&quot; class=&quot;headerlink&quot; title=&quot;职业&quot;&gt;&lt;/a&gt;职业&lt;/h2&gt;&lt;h3 id=&quot;初始职业&quot;&gt;&lt;a href=&quot;#初始职业&quot; class=&quot;headerlink&quot; title=&quot;初始职业&quot;&gt;&lt;/a&gt;初始职业&lt;/h
+      
+      </description>
+      
+      <content:encoded><![CDATA[<h2 id="职业"><a href="#职业" class="headerlink" title="职业"></a>职业</h2><h3 id="初始职业"><a href="#初始职业" class="headerlink" title="初始职业"></a>初始职业</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">初心者：JOB_VAGRANT</div></pre></td></tr></table></figure>
+<h3 id="一转"><a href="#一转" class="headerlink" title="一转"></a>一转</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">战士：JOB_MERCENARY</div></pre></td></tr></table></figure>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">魔导师：JOB_MAGICIAN</div></pre></td></tr></table></figure>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">圣职者：JOB_ASSIST</div></pre></td></tr></table></figure>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">弓箭手：JOB_ACROBAT</div></pre></td></tr></table></figure>
+<h3 id="二转"><a href="#二转" class="headerlink" title="二转"></a>二转</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">刀锋战士：JOB_BILLPOSTER_HERO</div></pre></td></tr></table></figure>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">骑 士：JOB_KNIGHT_HERO</div></pre></td></tr></table></figure>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">元素使者：JOB_ELEMENTOR_HERO</div></pre></td></tr></table></figure>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">精神使者：JOB_PSYCHIKEEPER_HERO</div></pre></td></tr></table></figure>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">游 侠：JOB_RANGER_HERO</div></pre></td></tr></table></figure>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">暗 杀：JOB_JESTER_HERO</div></pre></td></tr></table></figure>
+<h3 id="三转"><a href="#三转" class="headerlink" title="三转"></a>三转</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">刀锋战士首领</div></pre></td></tr></table></figure>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">骑士首领</div></pre></td></tr></table></figure>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">元素使者首领</div></pre></td></tr></table></figure>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">精神使者首领</div></pre></td></tr></table></figure>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">暴力技师首领</div></pre></td></tr></table></figure>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">守护使者首领</div></pre></td></tr></table></figure>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">游侠首领</div></pre></td></tr></table></figure>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">暗杀首领</div></pre></td></tr></table></figure>
+<h3 id="四转"><a href="#四转" class="headerlink" title="四转"></a>四转</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">刀锋战士英雄</div></pre></td></tr></table></figure>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">骑士英雄</div></pre></td></tr></table></figure>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">元素使者英雄</div></pre></td></tr></table></figure>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">精神使者英雄</div></pre></td></tr></table></figure>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">暴力技师英雄</div></pre></td></tr></table></figure>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">守护使者英雄</div></pre></td></tr></table></figure>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">游侠英雄</div></pre></td></tr></table></figure>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">暗杀英雄</div></pre></td></tr></table></figure>
+<h3 id="五转"><a href="#五转" class="headerlink" title="五转"></a>五转</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">暴风行者</div></pre></td></tr></table></figure>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">圣殿骑士</div></pre></td></tr></table></figure>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">魔导士</div></pre></td></tr></table></figure>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">心灵师</div></pre></td></tr></table></figure>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">格斗宗师</div></pre></td></tr></table></figure>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">自然神使</div></pre></td></tr></table></figure>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">爆裂射手</div></pre></td></tr></table></figure>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">风之埋伏者</div></pre></td></tr></table></figure>
+<p>Nai8’s Blog|版权所有，违者必究|如未注明，均为原创。 <a href="http://nai-8.com/2017/04/15/飞飞各职业/">http://nai-8.com/2017/04/15/飞飞各职业/</a> . - 转载请注明原文链接</p>
+]]></content:encoded>
+      
+      <comments>http://nai-8.com/2017/04/15/%E9%A3%9E%E9%A3%9E%E5%90%84%E8%81%8C%E4%B8%9A/#disqus_thread</comments>
+    </item>
     
     <item>
       <title>Hello World</title>
@@ -31,6 +83,7 @@
 <p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="external">Generating</a></p>
 <h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo deploy</div></pre></td></tr></table></figure>
 <p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="external">Deployment</a></p>
+<p>Nai8’s Blog|版权所有，违者必究|如未注明，均为原创。 <a href="http://nai-8.com/2017/04/15/hello-world/">http://nai-8.com/2017/04/15/hello-world/</a> . - 转载请注明原文链接</p>
 ]]></content:encoded>
       
       <comments>http://nai-8.com/2017/04/15/hello-world/#disqus_thread</comments>
