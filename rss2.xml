@@ -3492,9 +3492,8 @@
       
       </description>
       
-      <content:encoded><![CDATA[<h2 id="职业"><a href="#职业" class="headerlink" title="职业"></a>职业</h2><h3 id="初始职业"><a href="#初始职业" class="headerlink" title="初始职业"></a>初始职业</h3><p><img src="/img/Flyff/job/初心者.png" alt="Job"></p>
-<blockquote>
-<p>作为所有玩家进入瑞加大陆最初状态，是所有职业的基础，使用剑和斧直接攻击用武器。在达到15级后可以转职为其它职业。随着等级提升可以获得不同的战斗技能。</p>
+      <content:encoded><![CDATA[<h2 id="职业"><a href="#职业" class="headerlink" title="职业"></a>职业</h2><h3 id="初始职业"><a href="#初始职业" class="headerlink" title="初始职业"></a>初始职业</h3><blockquote>
+<p><img src="/img/Flyff/Job/初心者.png" alt="Job"><br>作为所有玩家进入瑞加大陆最初状态，是所有职业的基础，使用剑和斧直接攻击用武器。在达到15级后可以转职为其它职业。随着等级提升可以获得不同的战斗技能。</p>
 </blockquote>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">初心者：JOB_VAGRANT</div></pre></td></tr></table></figure>
 <blockquote>
@@ -3512,9 +3511,6 @@
 <p><img src="/img/Flyff/Job/圣职者.png" alt="Job"></p>
 </blockquote>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">圣职者：JOB_ASSIST</div></pre></td></tr></table></figure>
-<blockquote>
-<p><img src="/img/Flyff/Job/弓箭手.png" alt="Job"></p>
-</blockquote>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">弓箭手：JOB_ACROBAT</div></pre></td></tr></table></figure>
 <h3 id="二转"><a href="#二转" class="headerlink" title="二转"></a>二转</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line">刀锋战士：JOB_BILLPOSTER_HERO</div><div class="line">骑 士：JOB_KNIGHT_HERO</div><div class="line">元素使者：JOB_ELEMENTOR_HERO</div><div class="line">精神使者：JOB_PSYCHIKEEPER_HERO</div><div class="line">游 侠：JOB_RANGER_HERO</div><div class="line">暗 杀：JOB_JESTER_HERO</div></pre></td></tr></table></figure>
 <h3 id="三转"><a href="#三转" class="headerlink" title="三转"></a>三转</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line">刀锋战士首领</div><div class="line">骑士首领</div><div class="line">元素使者首领</div><div class="line">精神使者首领</div><div class="line">守护使者首领</div><div class="line">游侠首领</div><div class="line">暗杀首领</div></pre></td></tr></table></figure>
