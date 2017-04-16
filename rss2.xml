@@ -8,8 +8,39 @@
     <atom:link href="/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description>Simple and Freedom</description>
-    <pubDate>Sat, 15 Apr 2017 17:17:47 GMT</pubDate>
+    <pubDate>Sun, 16 Apr 2017 02:07:00 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>属性特色</title>
+      <link>http://nai-8.com/2017/04/16/%E5%B1%9E%E6%80%A7%E7%89%B9%E8%89%B2/</link>
+      <guid>http://nai-8.com/2017/04/16/%E5%B1%9E%E6%80%A7%E7%89%B9%E8%89%B2/</guid>
+      <pubDate>Sun, 16 Apr 2017 01:50:33 GMT</pubDate>
+      <description>
+      
+        &lt;blockquote&gt;
+&lt;p&gt;&lt;img src=&quot;/img/Flyff/Property/属性相克.png&quot; alt=&quot;Property&quot;&gt;&lt;br&gt;游戏世界里存在5种属性，具体分为风，火，雷，水，地五种属性，不同属性之间的有相互克制的效果（如图）。&lt;/p&gt;
+&lt;/blockquo
+      
+      </description>
+      
+      <content:encoded><![CDATA[<blockquote>
+<p><img src="/img/Flyff/Property/属性相克.png" alt="Property"><br>游戏世界里存在5种属性，具体分为风，火，雷，水，地五种属性，不同属性之间的有相互克制的效果（如图）。</p>
+</blockquote>
+<h2 id="怪物属性"><a href="#怪物属性" class="headerlink" title="怪物属性"></a>怪物属性</h2><blockquote>
+<p>游戏中每只怪物都拥有一种独立的属性，同种怪物其等级不同也会具备不一样的属性，玩家可以通过锁定怪物后查看怪物属性。</p>
+</blockquote>
+<h2 id="技能属性"><a href="#技能属性" class="headerlink" title="技能属性"></a>技能属性</h2><blockquote>
+<p>部分战斗技能也具备属性特点，比如魔导士的“龙卷飓风”技能就具备“风”属性，而象“火神爆焰 ”技能就具备“火”属性。如果在攻击怪物的时候，技能属性刚好是克制怪物属性，相对普通攻击会给怪物造成更大的伤害。</p>
+</blockquote>
+<h2 id="武器，装备属性"><a href="#武器，装备属性" class="headerlink" title="武器，装备属性"></a>武器，装备属性</h2><blockquote>
+<p>游戏世界中所有的武器都可以通过精炼引进属性元素，如果武器拥有某种属性，那么在攻击怪物的时候，如果怪物的属性正好被武器的属性所克制，那么攻击伤害的程度会有所加强。<br>部分不同装备（衣服）也可以通过精炼引进属性元素，在人物受到怪物攻击，如果怪物的属性正好被装备的属性所克制或者与装备的属性一样，那么人物被攻击的伤害程度会有所减少。</p>
+</blockquote>
+<p>Nai8’s Blog|版权所有，违者必究|如未注明，均为原创。 <a href="http://nai-8.com/2017/04/16/属性特色/">http://nai-8.com/2017/04/16/属性特色/</a> . - 转载请注明原文链接</p>
+]]></content:encoded>
+      
+      <comments>http://nai-8.com/2017/04/16/%E5%B1%9E%E6%80%A7%E7%89%B9%E8%89%B2/#disqus_thread</comments>
+    </item>
     
     <item>
       <title>怪物资料</title>
@@ -24,7 +55,7 @@
       
       <content:encoded><![CDATA[<h1 id="老飞飞怪物分布图"><a href="#老飞飞怪物分布图" class="headerlink" title="老飞飞怪物分布图"></a>老飞飞怪物分布图</h1><p><img src="/img/MonsterPicture/老飞飞怪物分布图.png" alt="MonsterPicture"></p>
 <h1 id="1-20级一般怪物"><a href="#1-20级一般怪物" class="headerlink" title="1~20级一般怪物"></a>1~20级一般怪物</h1><h2 id="独眼蝙蝠"><a href="#独眼蝙蝠" class="headerlink" title="独眼蝙蝠"></a>独眼蝙蝠</h2><blockquote>
-<p><img src="/img/MonsterPicture/独眼蝙蝠.png" alt="MonsterPicture">在神話時代被魔鬼當成玩具般所奴役，頭腦非常笨，並常惹出麻煩，而遭其他怪物排擠，不過繁殖力非常相當強，到處都可以發現出沒的蹤影。</p>
+<p><img src="/img/MonsterPicture/独眼蝙蝠.png" alt="MonsterPicture"><br>在神話時代被魔鬼當成玩具般所奴役，頭腦非常笨，並常惹出麻煩，而遭其他怪物排擠，不過繁殖力非常相當強，到處都可以發現出沒的蹤影。</p>
 </blockquote>
 <table>
 <thead>
@@ -64,7 +95,7 @@
 </tbody>
 </table>
 <h2 id="咚咚菇"><a href="#咚咚菇" class="headerlink" title="咚咚菇"></a>咚咚菇</h2><blockquote>
-<p><img src="/img/MonsterPicture/咚咚菇.png" alt="MonsterPicture">生存於在磨菇地區的奇怪生物，以磨菇和霉菌的相互作用而形成，平常比較順從，但一生氣的話非常恐怖，對旅行於磨菇地區的旅行者，是再也熟悉過的怪物，可看到其特殊且滑稽的攻擊方式。</p>
+<p><img src="/img/MonsterPicture/咚咚菇.png" alt="MonsterPicture"><br>生存於在磨菇地區的奇怪生物，以磨菇和霉菌的相互作用而形成，平常比較順從，但一生氣的話非常恐怖，對旅行於磨菇地區的旅行者，是再也熟悉過的怪物，可看到其特殊且滑稽的攻擊方式。</p>
 </blockquote>
 <table>
 <thead>
@@ -99,7 +130,7 @@
 </tbody>
 </table>
 <h2 id="藍甲蟲"><a href="#藍甲蟲" class="headerlink" title="藍甲蟲"></a>藍甲蟲</h2><blockquote>
-<p><img src="/img/MonsterPicture/藍甲蟲.png" alt="MonsterPicture">從蟑螂或豬等生物繁衍而成，怪物出名得地方在於其固執的個性，偶爾會攻擊村莊，而成為村莊的最大討伐對象，主要以蟲子為食，巨大的牙齒可是很容易辨識的特色。</p>
+<p><img src="/img/MonsterPicture/藍甲蟲.png" alt="MonsterPicture"><br>從蟑螂或豬等生物繁衍而成，怪物出名得地方在於其固執的個性，偶爾會攻擊村莊，而成為村莊的最大討伐對象，主要以蟲子為食，巨大的牙齒可是很容易辨識的特色。</p>
 </blockquote>
 <table>
 <thead>
@@ -134,7 +165,7 @@
 </tbody>
 </table>
 <h2 id="噗卡噗卡"><a href="#噗卡噗卡" class="headerlink" title="噗卡噗卡"></a>噗卡噗卡</h2><blockquote>
-<p><img src="/img/MonsterPicture/噗卡噗卡.png" alt="MonsterPicture">出沒於於人住的村莊周圍，會模仿人類的行為，包括穿著，甚至它們把菜刀當作武器使用。</p>
+<p><img src="/img/MonsterPicture/噗卡噗卡.png" alt="MonsterPicture"><br>出沒於於人住的村莊周圍，會模仿人類的行為，包括穿著，甚至它們把菜刀當作武器使用。</p>
 </blockquote>
 <table>
 <thead>
@@ -169,7 +200,7 @@
 </tbody>
 </table>
 <h2 id="戰車蟲"><a href="#戰車蟲" class="headerlink" title="戰車蟲"></a>戰車蟲</h2><blockquote>
-<p><img src="/img/MonsterPicture/甲虫.png" alt="MonsterPicture">如同烏龜般的生物，遠看起來像一座小山，背負厚重的外殼導致動作緩慢，受到一點刺激，會產生的很恐怖反應，若發現其行行跡，最好還是躲開比較好。</p>
+<p><img src="/img/MonsterPicture/甲虫.png" alt="MonsterPicture"><br>如同烏龜般的生物，遠看起來像一座小山，背負厚重的外殼導致動作緩慢，受到一點刺激，會產生的很恐怖反應，若發現其行行跡，最好還是躲開比較好。</p>
 </blockquote>
 <table>
 <thead>
@@ -204,7 +235,7 @@
 </tbody>
 </table>
 <h2 id="丹丹"><a href="#丹丹" class="headerlink" title="丹丹"></a>丹丹</h2><blockquote>
-<p><img src="/img/MonsterPicture/丹丹.png" alt="MonsterPicture">丹丹是在家裡出很多問題而逃家的小孩子，逃家之後，他的個性越來越來變暴惡，而被人們當成怪物看待，丹丹會拿一把廚刀來攻擊路過的旅行者，故可別因其是小孩子而大意。</p>
+<p><img src="/img/MonsterPicture/丹丹.png" alt="MonsterPicture"><br>丹丹是在家裡出很多問題而逃家的小孩子，逃家之後，他的個性越來越來變暴惡，而被人們當成怪物看待，丹丹會拿一把廚刀來攻擊路過的旅行者，故可別因其是小孩子而大意。</p>
 </blockquote>
 <table>
 <thead>
@@ -239,7 +270,7 @@
 </tbody>
 </table>
 <h2 id="多魯"><a href="#多魯" class="headerlink" title="多魯"></a>多魯</h2><blockquote>
-<p><img src="/img/MonsterPicture/海马.png" alt="MonsterPicture">又被稱之為小龍，具有強烈的戰鬥力和生命力，彼此之間充滿忌妒而互相攻擊，甚至在同種族之間進行大規摸的戰爭，也因此，他們的存量漸漸減少。</p>
+<p><img src="/img/MonsterPicture/海马.png" alt="MonsterPicture"><br>又被稱之為小龍，具有強烈的戰鬥力和生命力，彼此之間充滿忌妒而互相攻擊，甚至在同種族之間進行大規摸的戰爭，也因此，他們的存量漸漸減少。</p>
 </blockquote>
 <table>
 <thead>
@@ -274,7 +305,7 @@
 </tbody>
 </table>
 <h2 id="布魯狼"><a href="#布魯狼" class="headerlink" title="布魯狼"></a>布魯狼</h2><blockquote>
-<p><img src="/img/MonsterPicture/布鲁狼.png" alt="MonsterPicture">狼的族類一種，擁有極高的自尊心很強，不願被當做成弱小的族群看待，布魯狼總是集結成群，它們具有像鋼鐵般的牙齒和弓鋸似的腳指甲，一般怪物也害怕牠們。</p>
+<p><img src="/img/MonsterPicture/布鲁狼.png" alt="MonsterPicture"><br>狼的族類一種，擁有極高的自尊心很強，不願被當做成弱小的族群看待，布魯狼總是集結成群，它們具有像鋼鐵般的牙齒和弓鋸似的腳指甲，一般怪物也害怕牠們。</p>
 </blockquote>
 <table>
 <thead>
@@ -309,7 +340,7 @@
 </tbody>
 </table>
 <h2 id="蜥蜴草"><a href="#蜥蜴草" class="headerlink" title="蜥蜴草"></a>蜥蜴草</h2><blockquote>
-<p><img src="/img/MonsterPicture/蜥蜴.png" alt="MonsterPicture">據說是毒蕈根變質產生的怪物，頭部奇怪的模樣常被其他怪物取笑，演變成葵花的外型，但其他怪物以為是中毒所致，更被取笑，而它們的憤怒，身型也變得越來越恐怖，是具有很強的破壞力的怪物。</p>
+<p><img src="/img/MonsterPicture/蜥蜴.png" alt="MonsterPicture"><br>據說是毒蕈根變質產生的怪物，頭部奇怪的模樣常被其他怪物取笑，演變成葵花的外型，但其他怪物以為是中毒所致，更被取笑，而它們的憤怒，身型也變得越來越恐怖，是具有很強的破壞力的怪物。</p>
 </blockquote>
 <table>
 <thead>
@@ -344,7 +375,7 @@
 </tbody>
 </table>
 <h2 id="喵娘"><a href="#喵娘" class="headerlink" title="喵娘"></a>喵娘</h2><blockquote>
-<p><img src="/img/MonsterPicture/喵娘.png" alt="MonsterPicture">看起來軟弱但身型非常有彈性，能在任何角度對敵人做反擊，牠的本性很溫柔，但一生氣就變得很凶殘，又會發出獨特的哭聲嚇阻敵人，所以還是盡量避開牠們的好。</p>
+<p><img src="/img/MonsterPicture/喵娘.png" alt="MonsterPicture"><br>看起來軟弱但身型非常有彈性，能在任何角度對敵人做反擊，牠的本性很溫柔，但一生氣就變得很凶殘，又會發出獨特的哭聲嚇阻敵人，所以還是盡量避開牠們的好。</p>
 </blockquote>
 <table>
 <thead>
@@ -379,7 +410,7 @@
 </tbody>
 </table>
 <h2 id="崩崩"><a href="#崩崩" class="headerlink" title="崩崩"></a>崩崩</h2><blockquote>
-<p><img src="/img/MonsterPicture/崩崩.png" alt="MonsterPicture">傳說被古代的魔法師詛咒，把它的身體變成戰鬥兵器，整個身體都可以做攻擊，皮膚比鋼鐵還厚又硬，巨大的身軀讓其他怪物相形見絀，但其智商不高，戰鬥方式相當容易被掌握。</p>
+<p><img src="/img/MonsterPicture/崩崩.png" alt="MonsterPicture"><br>傳說被古代的魔法師詛咒，把它的身體變成戰鬥兵器，整個身體都可以做攻擊，皮膚比鋼鐵還厚又硬，巨大的身軀讓其他怪物相形見絀，但其智商不高，戰鬥方式相當容易被掌握。</p>
 </blockquote>
 <table>
 <thead>
@@ -484,7 +515,7 @@
 </tbody>
 </table>
 <h2 id="拳頭花"><a href="#拳頭花" class="headerlink" title="拳頭花"></a>拳頭花</h2><blockquote>
-<p><img src="/img/MonsterPicture/拳頭花.png" alt="MonsterPicture">從食人植物演變成殘暴怪物，胃口奇大，人們常遭受牠們攻擊而困擾，其主要弱點為軟弱的外皮，它具有尖利快速的攻擊力來防禦自己，其次為體力不佳，若戰鬥時間過長，就會逃跑而去。</p>
+<p><img src="/img/MonsterPicture/拳頭花.png" alt="MonsterPicture"><br>從食人植物演變成殘暴怪物，胃口奇大，人們常遭受牠們攻擊而困擾，其主要弱點為軟弱的外皮，它具有尖利快速的攻擊力來防禦自己，其次為體力不佳，若戰鬥時間過長，就會逃跑而去。</p>
 </blockquote>
 <table>
 <thead>
@@ -519,7 +550,7 @@
 </tbody>
 </table>
 <h2 id="米兒"><a href="#米兒" class="headerlink" title="米兒"></a>米兒</h2><blockquote>
-<p><img src="/img/MonsterPicture/米兒.png" alt="MonsterPicture">在小時候被誘拐幼童，輾轉逃亡後仍不幸喪生，因忘不了對媽媽的思念，而變成靈鬼飄蕩於人世間。</p>
+<p><img src="/img/MonsterPicture/米兒.png" alt="MonsterPicture"><br>在小時候被誘拐幼童，輾轉逃亡後仍不幸喪生，因忘不了對媽媽的思念，而變成靈鬼飄蕩於人世間。</p>
 </blockquote>
 <table>
 <thead>
@@ -554,7 +585,7 @@
 </tbody>
 </table>
 <h2 id="南瓜先生"><a href="#南瓜先生" class="headerlink" title="南瓜先生"></a>南瓜先生</h2><blockquote>
-<p><img src="/img/MonsterPicture/南瓜先生.png" alt="MonsterPicture">因對棄置耕種的農夫產生憤怒和土地的異常化學作用變異而成的生物，它們開始攻擊人，南瓜先生就是其中之ㄧ，穿上農夫丟棄的衣物，因感情變化不定，常無原無故攻擊人們。</p>
+<p><img src="/img/MonsterPicture/南瓜先生.png" alt="MonsterPicture"><br>因對棄置耕種的農夫產生憤怒和土地的異常化學作用變異而成的生物，它們開始攻擊人，南瓜先生就是其中之ㄧ，穿上農夫丟棄的衣物，因感情變化不定，常無原無故攻擊人們。</p>
 </blockquote>
 <table>
 <thead>
@@ -589,7 +620,7 @@
 </tbody>
 </table>
 <h2 id="赤螳螂"><a href="#赤螳螂" class="headerlink" title="赤螳螂"></a>赤螳螂</h2><blockquote>
-<p><img src="/img/MonsterPicture/赤螳螂.png" alt="MonsterPicture">古代世界地震等不明因素，產生很多變異生物，變異生物因無法適應而滅絕，只有螳螂反而進化到巨大的赤螳螂，赤螳螂擁有紅色光潤的身體，牠們的兩個銳利的利齒觸角，可以把所有的東西剪斷</p>
+<p><img src="/img/MonsterPicture/赤螳螂.png" alt="MonsterPicture"><br>古代世界地震等不明因素，產生很多變異生物，變異生物因無法適應而滅絕，只有螳螂反而進化到巨大的赤螳螂，赤螳螂擁有紅色光潤的身體，牠們的兩個銳利的利齒觸角，可以把所有的東西剪斷</p>
 </blockquote>
 <table>
 <thead>
@@ -624,7 +655,7 @@
 </tbody>
 </table>
 <h2 id="傑克槌"><a href="#傑克槌" class="headerlink" title="傑克槌"></a>傑克槌</h2><blockquote>
-<p><img src="/img/MonsterPicture/傑克槌.png" alt="MonsterPicture">好戰的杜爾沛結群成黨後，開始攻擊一般的杜爾沛和人類，人們開始反抗並驅退他們，過了幾十年後，他們再度聚集處現，他們的樣貌變得更為醜陋且更具殺傷力。</p>
+<p><img src="/img/MonsterPicture/傑克槌.png" alt="MonsterPicture"><br>好戰的杜爾沛結群成黨後，開始攻擊一般的杜爾沛和人類，人們開始反抗並驅退他們，過了幾十年後，他們再度聚集處現，他們的樣貌變得更為醜陋且更具殺傷力。</p>
 </blockquote>
 <table>
 <thead>
@@ -3461,8 +3492,30 @@
       
       </description>
       
-      <content:encoded><![CDATA[<h2 id="职业"><a href="#职业" class="headerlink" title="职业"></a>职业</h2><h3 id="初始职业"><a href="#初始职业" class="headerlink" title="初始职业"></a>初始职业</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">初心者：JOB_VAGRANT</div></pre></td></tr></table></figure>
-<h3 id="一转"><a href="#一转" class="headerlink" title="一转"></a>一转</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">战士：JOB_MERCENARY</div><div class="line">魔导士：JOB_MAGICIAN</div><div class="line">圣职者：JOB_ASSIST</div><div class="line">弓箭手：JOB_ACROBAT</div></pre></td></tr></table></figure>
+      <content:encoded><![CDATA[<h2 id="职业"><a href="#职业" class="headerlink" title="职业"></a>职业</h2><h3 id="初始职业"><a href="#初始职业" class="headerlink" title="初始职业"></a>初始职业</h3><p><img src="/img/Flyff/job/初心者.png" alt="Job"></p>
+<blockquote>
+<p>作为所有玩家进入瑞加大陆最初状态，是所有职业的基础，使用剑和斧直接攻击用武器。在达到15级后可以转职为其它职业。随着等级提升可以获得不同的战斗技能。</p>
+</blockquote>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">初心者：JOB_VAGRANT</div></pre></td></tr></table></figure>
+<blockquote>
+<p>增加最大MP（法力值） 2 15 智力(INT) 躲闪率，提高防御力（效率100%） 增加命中率 敏捷度(DEX) 增加最大HP（生命值），提高防御力（效率50%），提高装备斧头时的攻击力 体质(CON) 提高装备剑时的攻击力，增加最大FP（技力值） 力量(STR) 说明 增加量 基本量 属性 作为所有玩家进入瑞加大陆最初状态，是所有职业的基础，使用剑和斧直接攻击用武器。在达到15级后可以转职为其它职业。随着等级提升可以获得不同的战斗技能。</p>
+</blockquote>
+<h3 id="一转"><a href="#一转" class="headerlink" title="一转"></a>一转</h3><blockquote>
+<p><img src="/img/Flyff/Job/战士.png" alt="Job"></p>
+</blockquote>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">战士：JOB_MERCENARY</div></pre></td></tr></table></figure>
+<blockquote>
+<p><img src="/img/Flyff/Job/魔导士.png" alt="Job"></p>
+</blockquote>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">魔导士：JOB_MAGICIAN</div></pre></td></tr></table></figure>
+<blockquote>
+<p><img src="/img/Flyff/Job/圣职者.png" alt="Job"></p>
+</blockquote>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">圣职者：JOB_ASSIST</div></pre></td></tr></table></figure>
+<blockquote>
+<p><img src="/img/Flyff/Job/弓箭手.png" alt="Job"></p>
+</blockquote>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">弓箭手：JOB_ACROBAT</div></pre></td></tr></table></figure>
 <h3 id="二转"><a href="#二转" class="headerlink" title="二转"></a>二转</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line">刀锋战士：JOB_BILLPOSTER_HERO</div><div class="line">骑 士：JOB_KNIGHT_HERO</div><div class="line">元素使者：JOB_ELEMENTOR_HERO</div><div class="line">精神使者：JOB_PSYCHIKEEPER_HERO</div><div class="line">游 侠：JOB_RANGER_HERO</div><div class="line">暗 杀：JOB_JESTER_HERO</div></pre></td></tr></table></figure>
 <h3 id="三转"><a href="#三转" class="headerlink" title="三转"></a>三转</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line">刀锋战士首领</div><div class="line">骑士首领</div><div class="line">元素使者首领</div><div class="line">精神使者首领</div><div class="line">守护使者首领</div><div class="line">游侠首领</div><div class="line">暗杀首领</div></pre></td></tr></table></figure>
 <h3 id="四转"><a href="#四转" class="headerlink" title="四转"></a>四转</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div></pre></td><td class="code"><pre><div class="line">刀锋战士英雄</div><div class="line">骑士英雄</div><div class="line">元素使者英雄</div><div class="line">精神使者英雄</div><div class="line">暴力技师英雄</div><div class="line">守护使者英雄</div><div class="line">游侠英雄</div><div class="line">暗杀英雄</div></pre></td></tr></table></figure>
