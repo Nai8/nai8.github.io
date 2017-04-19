@@ -89,17 +89,17 @@
 
 
 
-<meta name="description" content="第一部分DPCacheSrvr.cpp中查找字段m_tGuildMember123456789if( pGuild-&amp;gt;RemoveMember( idPlayer ) )&amp;#123;	if( pPlayer )	&amp;#123;		pPlayer-&amp;gt;m_tGuildMember = CTime::GetCurrentTime();		pPlayer-&amp;gt;m_tGuildMember +">
+<meta name="description" content="第一部分DPCacheSrvr.cpp中搜索字段m_tGuildMember123456789if( pGuild-&amp;gt;RemoveMember( idPlayer ) )&amp;#123;	if( pPlayer )	&amp;#123;		pPlayer-&amp;gt;m_tGuildMember = CTime::GetCurrentTime();		pPlayer-&amp;gt;m_tGuildMember +">
 <meta name="keywords" content="Flyff">
 <meta property="og:type" content="article">
 <meta property="og:title" content="更改公会重新加入时间">
 <meta property="og:url" content="http://nai-8.com/2017/04/19/更改公会重新加入时间/index.html">
 <meta property="og:site_name" content="Nai8's Blog">
-<meta property="og:description" content="第一部分DPCacheSrvr.cpp中查找字段m_tGuildMember123456789if( pGuild-&amp;gt;RemoveMember( idPlayer ) )&amp;#123;	if( pPlayer )	&amp;#123;		pPlayer-&amp;gt;m_tGuildMember = CTime::GetCurrentTime();		pPlayer-&amp;gt;m_tGuildMember +">
-<meta property="og:updated_time" content="2017-04-18T16:25:06.608Z">
+<meta property="og:description" content="第一部分DPCacheSrvr.cpp中搜索字段m_tGuildMember123456789if( pGuild-&amp;gt;RemoveMember( idPlayer ) )&amp;#123;	if( pPlayer )	&amp;#123;		pPlayer-&amp;gt;m_tGuildMember = CTime::GetCurrentTime();		pPlayer-&amp;gt;m_tGuildMember +">
+<meta property="og:updated_time" content="2017-04-19T11:55:48.508Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="更改公会重新加入时间">
-<meta name="twitter:description" content="第一部分DPCacheSrvr.cpp中查找字段m_tGuildMember123456789if( pGuild-&amp;gt;RemoveMember( idPlayer ) )&amp;#123;	if( pPlayer )	&amp;#123;		pPlayer-&amp;gt;m_tGuildMember = CTime::GetCurrentTime();		pPlayer-&amp;gt;m_tGuildMember +">
+<meta name="twitter:description" content="第一部分DPCacheSrvr.cpp中搜索字段m_tGuildMember123456789if( pGuild-&amp;gt;RemoveMember( idPlayer ) )&amp;#123;	if( pPlayer )	&amp;#123;		pPlayer-&amp;gt;m_tGuildMember = CTime::GetCurrentTime();		pPlayer-&amp;gt;m_tGuildMember +">
 
 
 
@@ -425,7 +425,7 @@
       
 
       
-        <h1 id="第一部分"><a href="#第一部分" class="headerlink" title="第一部分"></a>第一部分</h1><p>DPCacheSrvr.cpp中查找字段m_tGuildMember<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">if</span>( pGuild-&gt;RemoveMember( idPlayer ) )</div><div class="line">&#123;</div><div class="line">	<span class="keyword">if</span>( pPlayer )</div><div class="line">	&#123;</div><div class="line">		pPlayer-&gt;m_tGuildMember = CTime::GetCurrentTime();</div><div class="line">		pPlayer-&gt;m_tGuildMember += CTimeSpan( 2, 0, 0, 0 );</div><div class="line">		pPlayer-&gt;m_idGuild	= 0;</div><div class="line">		SendRemoveGuildMember( idPlayer, pGuild-&gt;m_idGuild, pPlayer );</div><div class="line">	&#125;</div></pre></td></tr></table></figure></p>
+        <h1 id="第一部分"><a href="#第一部分" class="headerlink" title="第一部分"></a>第一部分</h1><p>DPCacheSrvr.cpp中搜索字段m_tGuildMember<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">if</span>( pGuild-&gt;RemoveMember( idPlayer ) )</div><div class="line">&#123;</div><div class="line">	<span class="keyword">if</span>( pPlayer )</div><div class="line">	&#123;</div><div class="line">		pPlayer-&gt;m_tGuildMember = CTime::GetCurrentTime();</div><div class="line">		pPlayer-&gt;m_tGuildMember += CTimeSpan( 2, 0, 0, 0 );</div><div class="line">		pPlayer-&gt;m_idGuild	= 0;</div><div class="line">		SendRemoveGuildMember( idPlayer, pGuild-&gt;m_idGuild, pPlayer );</div><div class="line">	&#125;</div></pre></td></tr></table></figure></p>
 <p>将（2，0，0，0）更改为（天，小时，分，秒）的格式。即5分钟（ 0，0，5，0 ）</p>
 <h1 id="第二部分"><a href="#第二部分" class="headerlink" title="第二部分"></a>第二部分</h1><p>在CHARACTER_DBF中查找GUILD_STR存储过程，并在过程中找到(再次出现两次):</p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">SET m_tGuildMember = CONVERT（CHAR（8），DATEADD（d，2，GETDATE（）），11??2） </div><div class="line">+ RIGHT（<span class="string">'00'</span>+ CONVERT（VARCHAR（2），DATEPART（hh，DATEADD（d，2，GETDATE（）））），2） </div><div class="line">+ RIGHT（<span class="string">'00'</span>+ CONVERT（VARCHAR（2），DATEPART（mi，DATEADD（d，2，GETDATE（）））），2） </div><div class="line">+ RIGHT（<span class="string">'00'</span>+ CONVERT（VARCHAR（2），DATEPART（ss，DATEADD（d，2，GETDATE（）））），2）</div></pre></td></tr></table></figure>
@@ -574,7 +574,7 @@
           
             <div class="site-state-item site-state-posts">
               <a href="/archives">
-                <span class="site-state-item-count">7</span>
+                <span class="site-state-item-count">9</span>
                 <span class="site-state-item-name">日志</span>
               </a>
             </div>
