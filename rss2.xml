@@ -8,11 +8,11 @@
     <atom:link href="/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description>Simple and Freedom</description>
-    <pubDate>Sun, 30 Apr 2017 01:38:14 GMT</pubDate>
+    <pubDate>Sun, 30 Apr 2017 01:39:30 GMT</pubDate>
     <generator>http://hexo.io/</generator>
     
     <item>
-      <title>T</title>
+      <title>2017ChinaJoy</title>
       <link>http://nai-8.com/2017/04/30/2017ChinaJoy/</link>
       <guid>http://nai-8.com/2017/04/30/2017ChinaJoy/</guid>
       <pubDate>Sun, 30 Apr 2017 01:34:50 GMT</pubDate>
@@ -42,7 +42,7 @@ function doDecrypt(pwd, onError) {
    document.getElementById("enc_passwd").style.display = "none";
 }
 </script>
-<div id="enc_content" style="display:none">U2FsdGVkX19wGLDCkpTZdinNywGnJ89nuqS+yKVuEHQJ2HW1us5tBI17LxqRnl0OYO/GY0BkUaZnlqjCPa0AzRbusKq1qTTe+nX6TUSCneuD+UQ+b9HG62niRhH7RzplQDdr0GcclyPc7kVF8Oy/6EFv+D4DZYUa+N2X4s32jecw/UQ5riETPLx6+mA7a8DiKhvMFFCm8ljCk1nh7dgUJkst4zH2StPq5KSEwYNxVAD3a6oYPsCHRffEj5YOEU1U35ZSqHSX8q8OkoHf5MMXK9PpmatIb32YHrCLSLefdkSAjkhz5uz0z1eYhsXINH/sDrIsFWEXvyalYmZMABoZDw==</div><div id="enc_passwd"> <input type="text" style=" border-radius: 5px; border-style: groove; height: 30px; width: 50%; cursor: auto; font-size: 102%; color: currentColor; outline: none; text-overflow: initial; padding-left: 5px;">   <input type="submit" value="decrypt" onclick="decrypt()" style=" width: 58px; height: 34px; border-radius: 5px; background-color: white; border-style: solid; color: currentColor; ">  <div id="enc_error" style=" display: inline-block; color: #d84527; font: large; "></div> <script>  var onError = function(error) {  $("#enc_error")[0].innerHTML = "password error!";  };  function decrypt() {  var passwd = $("#enc_passwd input")[0].value;  console.log(passwd);  doDecrypt(passwd, onError);  }  </script></div>]]></content:encoded>
+<div id="enc_content" style="display:none">U2FsdGVkX19WdWoIbChkAwO0hrLElDHJ9+9BwrctZD8XVGInEtLo6S041XLy/6swqDmUZPspmZa48v5HAJ1IAGgKjwXPuaFQIl00oxAJkoZ9tTAuBMjm9I3u9y3V9mh+ENeUMy8t526xwpefhvmpsB/rbes1JaS8UA3L1reEsnfXWIXLNiecwIay4noXQw5DIvTU+mjf5KdHDsq7CD9ILt0g0ih7G8wM9DOlbddwZmR2VAWSfueFVKfGB+3qq4XWVpoa1+HULRuDAjnPd+CymAR1p94FwMD/h8oMzVjXGTzx7XD+nT0H3QpsNKfvwNgYxWX7jo7NRZQ130h9s0H2VA==</div><div id="enc_passwd"> <input type="text" style=" border-radius: 5px; border-style: groove; height: 30px; width: 50%; cursor: auto; font-size: 102%; color: currentColor; outline: none; text-overflow: initial; padding-left: 5px;">   <input type="submit" value="decrypt" onclick="decrypt()" style=" width: 58px; height: 34px; border-radius: 5px; background-color: white; border-style: solid; color: currentColor; ">  <div id="enc_error" style=" display: inline-block; color: #d84527; font: large; "></div> <script>  var onError = function(error) {  $("#enc_error")[0].innerHTML = "password error!";  };  function decrypt() {  var passwd = $("#enc_passwd input")[0].value;  console.log(passwd);  doDecrypt(passwd, onError);  }  </script></div>]]></content:encoded>
       
       <comments>http://nai-8.com/2017/04/30/2017ChinaJoy/#disqus_thread</comments>
     </item>
