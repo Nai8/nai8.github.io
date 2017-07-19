@@ -8,8 +8,20 @@
     <atom:link href="/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description>Simple and Freedom</description>
-    <pubDate>Sun, 30 Apr 2017 01:39:30 GMT</pubDate>
+    <pubDate>Wed, 19 Jul 2017 05:45:10 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>FTool</title>
+      <link>http://nai-8.com/2017/07/19/FTool/</link>
+      <guid>http://nai-8.com/2017/07/19/FTool/</guid>
+      <pubDate>Wed, 19 Jul 2017 05:43:46 GMT</pubDate>
+      <description>
+      
+      </description>
+      
+      <comments>http://nai-8.com/2017/07/19/FTool/#disqus_thread</comments>
+    </item>
     
     <item>
       <title>2017ChinaJoy</title>
@@ -42,7 +54,7 @@ function doDecrypt(pwd, onError) {
    document.getElementById("enc_passwd").style.display = "none";
 }
 </script>
-<div id="enc_content" style="display:none">U2FsdGVkX19VsqBTNsgNPzY6yJ4n9v2S4vuH7fP2Rmht6pNjPrQfKAnYJU1YxJD7VY/P2+3Qb3w4uDZtPqSKUiGFExv1rh4GidP0wJIgwiJjaRCUVDrjMDw9hVG1eroqwIBg4Q3Rq+htppz4Q6IGupxrcYM6xjQleAyLzeLA+m48C2HqLmuhyHZ1X/shWww2312GuwjFo1bXNSQ5RXcgWXvm+EqnNTX/Y1rh75qf34msw4wIYclKp7MGQYCd0yAv+ripkfs9IFuPG67UB4r3CkT3pF0Z+iUziwTM8oaw8bO64cA113QW5KUIhpasc3nFXx8JJMABlq8AKyw6tbcFJQ==</div><div id="enc_passwd"> <input type="text" style=" border-radius: 5px; border-style: groove; height: 30px; width: 50%; cursor: auto; font-size: 102%; color: currentColor; outline: none; text-overflow: initial; padding-left: 5px;">   <input type="submit" value="decrypt" onclick="decrypt()" style=" width: 58px; height: 34px; border-radius: 5px; background-color: white; border-style: solid; color: currentColor; ">  <div id="enc_error" style=" display: inline-block; color: #d84527; font: large; "></div> <script>  var onError = function(error) {  $("#enc_error")[0].innerHTML = "password error!";  };  function decrypt() {  var passwd = $("#enc_passwd input")[0].value;  console.log(passwd);  doDecrypt(passwd, onError);  }  </script></div>]]></content:encoded>
+<div id="enc_content" style="display:none">U2FsdGVkX19nH5szsph0VjIOQLpqlYDPfOWvsPE7S9jJtInqQ9uYYUz2gi3YyZFWMtu966oypEIOJ6EEGHw2wfUwN94OiZEtKrEZaHbvEs0WqH/2iEqUhjjVzCw4UoqKfDLrHtKr5sNCTHLH1nSEf6qvzXghmJO1iEAGcIt3L+azZA3QbCC8MdlKzfhwM722P1NT+i2Zj8JOpZgt6/yEqBU5ZnseY6c1AhzkNjGsFqJ+aN57dinIQHWJv/FXLKTZU3BY1nsAa2oZU8uNBPsUclONFfWLDH28DNewg/gcCRLrX3ej7KLzXIpze1m9RsIlMwlFowBbYXqst2EbgiJSgA==</div><div id="enc_passwd"> <input type="text" style=" border-radius: 5px; border-style: groove; height: 30px; width: 50%; cursor: auto; font-size: 102%; color: currentColor; outline: none; text-overflow: initial; padding-left: 5px;">   <input type="submit" value="decrypt" onclick="decrypt()" style=" width: 58px; height: 34px; border-radius: 5px; background-color: white; border-style: solid; color: currentColor; ">  <div id="enc_error" style=" display: inline-block; color: #d84527; font: large; "></div> <script>  var onError = function(error) {  $("#enc_error")[0].innerHTML = "password error!";  };  function decrypt() {  var passwd = $("#enc_passwd input")[0].value;  console.log(passwd);  doDecrypt(passwd, onError);  }  </script></div>]]></content:encoded>
       
       <comments>http://nai-8.com/2017/04/30/2017ChinaJoy/#disqus_thread</comments>
     </item>
@@ -117,26 +129,6 @@ function doDecrypt(pwd, onError) {
 ]]></content:encoded>
       
       <comments>http://nai-8.com/2017/04/19/%E5%A6%82%E4%BD%95%E5%88%9B%E5%BB%BA%E4%B8%80%E4%B8%AA%E6%96%B0%E7%9A%84%E4%BB%BB%E5%8A%A1/#disqus_thread</comments>
-    </item>
-    
-    <item>
-      <title>修改背包格子上限</title>
-      <link>http://nai-8.com/2017/04/19/%E4%BF%AE%E6%94%B9%E8%83%8C%E5%8C%85%E6%A0%BC%E5%AD%90%E4%B8%8A%E9%99%90/</link>
-      <guid>http://nai-8.com/2017/04/19/%E4%BF%AE%E6%94%B9%E8%83%8C%E5%8C%85%E6%A0%BC%E5%AD%90%E4%B8%8A%E9%99%90/</guid>
-      <pubDate>Wed, 19 Apr 2017 11:52:57 GMT</pubDate>
-      <description>
-      
-        &lt;h1 id=&quot;第一部分&quot;&gt;&lt;a href=&quot;#第一部分&quot; class=&quot;headerlink&quot; title=&quot;第一部分&quot;&gt;&lt;/a&gt;第一部分&lt;/h1&gt;&lt;p&gt;Pocket.h中搜索字段:&lt;br&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;t
-      
-      </description>
-      
-      <content:encoded><![CDATA[<h1 id="第一部分"><a href="#第一部分" class="headerlink" title="第一部分"></a>第一部分</h1><p>Pocket.h中搜索字段:<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="comment">#define	MAX_POCKET	3</span></div></pre></td></tr></table></figure></p>
-<p>如下:<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line"><span class="comment">#define	MAX_POCKET	3 // This is the maximum ammount of bag-packs players can have, don`t change this unless you know what you`re doing.</span></div><div class="line"><span class="comment">#define	POCKET_SLOT_SIZE_0	6 // This is the ammount of slots in the FIRST bag-pack.</span></div><div class="line"><span class="comment">#define	POCKET_SLOT_SIZE_1_2	24 // This is the ammount of slots in the TWO EXTRA-BAG-PACKS.</span></div></pre></td></tr></table></figure></p>
-<h1 id="第二部分"><a href="#第二部分" class="headerlink" title="第二部分"></a>第二部分</h1><p>在这段代码中数字:6、24为我们可以修改的数值。</p>
-<p>我将它改为:<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line"><span class="comment">#define	MAX_POCKET	3</span></div><div class="line"><span class="comment">#define	POCKET_SLOT_SIZE_0	6</span></div><div class="line"><span class="comment">#define	POCKET_SLOT_SIZE_1_2	90 //确保这个数值为6的倍数,但最好不要超过96.</span></div></pre></td></tr></table></figure></p>
-]]></content:encoded>
-      
-      <comments>http://nai-8.com/2017/04/19/%E4%BF%AE%E6%94%B9%E8%83%8C%E5%8C%85%E6%A0%BC%E5%AD%90%E4%B8%8A%E9%99%90/#disqus_thread</comments>
     </item>
     
   </channel>

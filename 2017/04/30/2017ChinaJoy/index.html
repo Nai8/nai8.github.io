@@ -420,7 +420,7 @@ function doDecrypt(pwd, onError) {
    document.getElementById("enc_passwd").style.display = "none";
 }
 </script>
-<div id="enc_content" style="display:none">U2FsdGVkX19VsqBTNsgNPzY6yJ4n9v2S4vuH7fP2Rmht6pNjPrQfKAnYJU1YxJD7VY/P2+3Qb3w4uDZtPqSKUiGFExv1rh4GidP0wJIgwiJjaRCUVDrjMDw9hVG1eroqwIBg4Q3Rq+htppz4Q6IGupxrcYM6xjQleAyLzeLA+m48C2HqLmuhyHZ1X/shWww2312GuwjFo1bXNSQ5RXcgWXvm+EqnNTX/Y1rh75qf34msw4wIYclKp7MGQYCd0yAv+ripkfs9IFuPG67UB4r3CkT3pF0Z+iUziwTM8oaw8bO64cA113QW5KUIhpasc3nFXx8JJMABlq8AKyw6tbcFJQ==</div><div id="enc_passwd"> <input type="text" style=" border-radius: 5px; border-style: groove; height: 30px; width: 50%; cursor: auto; font-size: 102%; color: currentColor; outline: none; text-overflow: initial; padding-left: 5px;">   <input type="submit" value="decrypt" onclick="decrypt()" style=" width: 58px; height: 34px; border-radius: 5px; background-color: white; border-style: solid; color: currentColor; ">  <div id="enc_error" style=" display: inline-block; color: #d84527; font: large; "></div> <script>  var onError = function(error) {  $("#enc_error")[0].innerHTML = "password error!";  };  function decrypt() {  var passwd = $("#enc_passwd input")[0].value;  console.log(passwd);  doDecrypt(passwd, onError);  }  </script></div>
+<div id="enc_content" style="display:none">U2FsdGVkX19nH5szsph0VjIOQLpqlYDPfOWvsPE7S9jJtInqQ9uYYUz2gi3YyZFWMtu966oypEIOJ6EEGHw2wfUwN94OiZEtKrEZaHbvEs0WqH/2iEqUhjjVzCw4UoqKfDLrHtKr5sNCTHLH1nSEf6qvzXghmJO1iEAGcIt3L+azZA3QbCC8MdlKzfhwM722P1NT+i2Zj8JOpZgt6/yEqBU5ZnseY6c1AhzkNjGsFqJ+aN57dinIQHWJv/FXLKTZU3BY1nsAa2oZU8uNBPsUclONFfWLDH28DNewg/gcCRLrX3ej7KLzXIpze1m9RsIlMwlFowBbYXqst2EbgiJSgA==</div><div id="enc_passwd"> <input type="text" style=" border-radius: 5px; border-style: groove; height: 30px; width: 50%; cursor: auto; font-size: 102%; color: currentColor; outline: none; text-overflow: initial; padding-left: 5px;">   <input type="submit" value="decrypt" onclick="decrypt()" style=" width: 58px; height: 34px; border-radius: 5px; background-color: white; border-style: solid; color: currentColor; ">  <div id="enc_error" style=" display: inline-block; color: #d84527; font: large; "></div> <script>  var onError = function(error) {  $("#enc_error")[0].innerHTML = "password error!";  };  function decrypt() {  var passwd = $("#enc_passwd input")[0].value;  console.log(passwd);  doDecrypt(passwd, onError);  }  </script></div>
       
     </div>
 
@@ -470,6 +470,10 @@ function doDecrypt(pwd, onError) {
       
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
+            
+              <a href="/2017/07/19/FTool/" rel="next" title="FTool">
+                <i class="fa fa-chevron-left"></i> FTool
+              </a>
             
           </div>
 
@@ -544,7 +548,7 @@ function doDecrypt(pwd, onError) {
           
             <div class="site-state-item site-state-posts">
               <a href="/archives">
-                <span class="site-state-item-count">12</span>
+                <span class="site-state-item-count">13</span>
                 <span class="site-state-item-name">日志</span>
               </a>
             </div>
@@ -555,7 +559,7 @@ function doDecrypt(pwd, onError) {
             
             <div class="site-state-item site-state-categories">
               <a href="/categories/index.html">
-                <span class="site-state-item-count">2</span>
+                <span class="site-state-item-count">3</span>
                 <span class="site-state-item-name">分类</span>
               </a>
             </div>
@@ -566,7 +570,7 @@ function doDecrypt(pwd, onError) {
             
             <div class="site-state-item site-state-tags">
               <a href="/tags/index.html">
-                <span class="site-state-item-count">2</span>
+                <span class="site-state-item-count">3</span>
                 <span class="site-state-item-name">标签</span>
               </a>
             </div>
