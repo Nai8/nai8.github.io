@@ -8,8 +8,44 @@
     <atom:link href="/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description>Simple and Freedom</description>
-    <pubDate>Wed, 19 Jul 2017 05:45:10 GMT</pubDate>
+    <pubDate>Tue, 01 Aug 2017 10:58:01 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>春风十里不如你</title>
+      <link>http://nai-8.com/2017/08/01/Spring.Breeze.Ten.Miles/</link>
+      <guid>http://nai-8.com/2017/08/01/Spring.Breeze.Ten.Miles/</guid>
+      <pubDate>Tue, 01 Aug 2017 10:48:50 GMT</pubDate>
+      <description>
+      
+        &lt;script src=/js/crypto-js.js&gt;&lt;/script&gt;&lt;script&gt;
+function doDecrypt(pwd, onError) {
+	console.log(&quot;in doDecrypt&quot;);
+	var txt = document.getEleme
+      
+      </description>
+      
+      <content:encoded><![CDATA[<script src=/js/crypto-js.js></script><script>
+function doDecrypt(pwd, onError) {
+	console.log("in doDecrypt");
+	var txt = document.getElementById("enc_content").innerHTML;
+	var plantext;
+	try {
+	  	var bytes = CryptoJS.AES.decrypt(txt, pwd);
+		plaintext = bytes.toString(CryptoJS.enc.Utf8);
+	} catch(err) {
+		if(onError) {onError(err);}
+		return;
+	}
+	document.getElementById("enc_content").innerHTML = plaintext;
+	document.getElementById("enc_content").style.display = "block";
+   document.getElementById("enc_passwd").style.display = "none";
+}
+</script>
+<div id="enc_content" style="display:none">U2FsdGVkX1/C3CL/R8eeAvgpy+2CmVHNxs/Gwx/6ASpofiuDqQBUhrbYj26BVMMvlJfPQj5KeYhX5qq/Tw12XMdpstUdqJLz3DiCv/0BTtiIS2zC7TfYhj+uY2Sfl/7GFQMdz51+fktQV49NM/AQcTq6tw74AeIhttF/ym7QsHyWe0WM+d8ba5c+ma70bz2rsWNeSXb3ZZSqK6XhZPNwaHgbtY9xzd+CFReypYWMPlG0kQczF9/wshJXfTZIK7UCnJxkOaPbRqBBBODROrh8s2oAqIGjIYNIxZKU3i2nKLL6n7KURo+j/XL5NxF13gBA8CiQ2db6SIu3pTBusarrH3r5a7ju8/gYoXXm1XHV4eGRqr/9r0Hin8iYLHxaUomR5aFzgUFIS5WaVsU1fIymcmXhKxLwt/IN62gBQLENxFOaRXrLJGTlJ85vx7KE9SooePZKEIVTqvZeeuycBLfQtL2w6wiGHHuDTfE3UPz4DTQ=</div><div id="enc_passwd"> <input type="text" style=" border-radius: 5px; border-style: groove; height: 30px; width: 50%; cursor: auto; font-size: 102%; color: currentColor; outline: none; text-overflow: initial; padding-left: 5px;">   <input type="submit" value="decrypt" onclick="decrypt()" style=" width: 58px; height: 34px; border-radius: 5px; background-color: white; border-style: solid; color: currentColor; ">  <div id="enc_error" style=" display: inline-block; color: #d84527; font: large; "></div> <script>  var onError = function(error) {  $("#enc_error")[0].innerHTML = "password error!";  };  function decrypt() {  var passwd = $("#enc_passwd input")[0].value;  console.log(passwd);  doDecrypt(passwd, onError);  }  </script></div>]]></content:encoded>
+      
+      <comments>http://nai-8.com/2017/08/01/Spring.Breeze.Ten.Miles/#disqus_thread</comments>
+    </item>
     
     <item>
       <title>FTool</title>
@@ -54,7 +90,7 @@ function doDecrypt(pwd, onError) {
    document.getElementById("enc_passwd").style.display = "none";
 }
 </script>
-<div id="enc_content" style="display:none">U2FsdGVkX1/AsynluY53qpwQIVKXNnvpWLhgj7SHhiA2euPOmgb/Wl8QGltLBYtIFmpsvU3AWKGHCOoO3Rox419S/tQ2a3nHdBzfWNsnoRRqLaIpwmVkpOnkFyIesiCnJ8MyWyFOTC/72SjT3UKy2tnIjlxSnaKUggdCRL7c3TiOuIXj2xkN+4wdpHKGjIRw2wmZ56vCntinb9mij8yJ/aa6ZyqIlkZ1S5XM1Qjbp2aytva3en4Lpwu81d4UvB8MVCwL24RSlqjI4Jw5YBVvuZejsvcNri9Uq3Dsi2ZvTI7jqWy/FwLTYMpO83LwyK86cpSkKa+PFK/xCab5PtCOWQ==</div><div id="enc_passwd"> <input type="text" style=" border-radius: 5px; border-style: groove; height: 30px; width: 50%; cursor: auto; font-size: 102%; color: currentColor; outline: none; text-overflow: initial; padding-left: 5px;">   <input type="submit" value="decrypt" onclick="decrypt()" style=" width: 58px; height: 34px; border-radius: 5px; background-color: white; border-style: solid; color: currentColor; ">  <div id="enc_error" style=" display: inline-block; color: #d84527; font: large; "></div> <script>  var onError = function(error) {  $("#enc_error")[0].innerHTML = "password error!";  };  function decrypt() {  var passwd = $("#enc_passwd input")[0].value;  console.log(passwd);  doDecrypt(passwd, onError);  }  </script></div>]]></content:encoded>
+<div id="enc_content" style="display:none">U2FsdGVkX19HqLFJwbwJ8souazK6NZcxjign02vwKAVkoeA4MxrOa6c3aDrcHLdNIa4PdfYoL6V35OClO0k+xP63O2tZTl2WrQYablczzDiQkSCQOpFBFv481isPXqkapW/gLy0DAMFTkwB4Uf8b0UOE/cjaEK4m0Mqej9M3zg0PxL3+6Hc7GKiGCyJiEaVzMoqC8OwmI0LFUNM8ssEODkvcODZC3iXqdELql2Yv61YXRNWa+cKIYay0hJycy9wLpWNbTGOXYrLESaPJdBKnoZDmeN/PxhvZPQyiVHNUtRUE/Mz5yra2+T9UpcL6y5oKJN800pLW4vEAY2VQo+J0UQ==</div><div id="enc_passwd"> <input type="text" style=" border-radius: 5px; border-style: groove; height: 30px; width: 50%; cursor: auto; font-size: 102%; color: currentColor; outline: none; text-overflow: initial; padding-left: 5px;">   <input type="submit" value="decrypt" onclick="decrypt()" style=" width: 58px; height: 34px; border-radius: 5px; background-color: white; border-style: solid; color: currentColor; ">  <div id="enc_error" style=" display: inline-block; color: #d84527; font: large; "></div> <script>  var onError = function(error) {  $("#enc_error")[0].innerHTML = "password error!";  };  function decrypt() {  var passwd = $("#enc_passwd input")[0].value;  console.log(passwd);  doDecrypt(passwd, onError);  }  </script></div>]]></content:encoded>
       
       <comments>http://nai-8.com/2017/04/30/2017ChinaJoy/#disqus_thread</comments>
     </item>
@@ -110,25 +146,6 @@ function doDecrypt(pwd, onError) {
 <h1 id="Ultimate-GemAbility-txt"><a href="#Ultimate-GemAbility-txt" class="headerlink" title="Ultimate_GemAbility.txt"></a>Ultimate_GemAbility.txt</h1><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div></pre></td><td class="code"><pre><div class="line">//底部插入:</div><div class="line">ABILITY DST_SPEED</div><div class="line">&#123;</div><div class="line">II_GEN_MAT_TOPAZ II_GEN_MAT_TOPAZ09 3 5 8 10 15</div><div class="line">II_GEN_MAT_RUBY II_GEN_MAT_RUBY09 5 10 15 20 30</div><div class="line">II_GEN_MAT_SAPPHIRE II_GEN_MAT_SAPPHIRE09 8 15 23 30 45</div><div class="line">II_GEN_MAT_EMERALD II_GEN_MAT_EMERALD09 10 20 30 40 60</div><div class="line">II_GEN_MAT_DIAMOND II_GEN_MAT_DIAMOND09 13 25 38 50 75</div><div class="line">&#125;</div></pre></td></tr></table></figure>]]></content:encoded>
       
       <comments>http://nai-8.com/2017/04/19/%E6%B7%BB%E5%8A%A0%E8%87%AA%E5%AE%9A%E4%B9%89%E9%92%BB%E7%9F%B3%E5%B1%9E%E6%80%A7/#disqus_thread</comments>
-    </item>
-    
-    <item>
-      <title>如何创建一个新的任务</title>
-      <link>http://nai-8.com/2017/04/19/%E5%A6%82%E4%BD%95%E5%88%9B%E5%BB%BA%E4%B8%80%E4%B8%AA%E6%96%B0%E7%9A%84%E4%BB%BB%E5%8A%A1/</link>
-      <guid>http://nai-8.com/2017/04/19/%E5%A6%82%E4%BD%95%E5%88%9B%E5%BB%BA%E4%B8%80%E4%B8%AA%E6%96%B0%E7%9A%84%E4%BB%BB%E5%8A%A1/</guid>
-      <pubDate>Wed, 19 Apr 2017 12:12:31 GMT</pubDate>
-      <description>
-      
-        &lt;h1 id=&quot;第一部分&quot;&gt;&lt;a href=&quot;#第一部分&quot; class=&quot;headerlink&quot; title=&quot;第一部分&quot;&gt;&lt;/a&gt;第一部分&lt;/h1&gt;&lt;p&gt;ProQuest.inc中搜索字段:&lt;br&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;t
-      
-      </description>
-      
-      <content:encoded><![CDATA[<h1 id="第一部分"><a href="#第一部分" class="headerlink" title="第一部分"></a>第一部分</h1><p>ProQuest.inc中搜索字段:<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">QUEST_NEWPETYORN</div></pre></td></tr></table></figure></p>
-<h1 id="第二部分"><a href="#第二部分" class="headerlink" title="第二部分"></a>第二部分</h1><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div><div class="line">30</div><div class="line">31</div><div class="line">32</div><div class="line">33</div><div class="line">34</div><div class="line">35</div><div class="line">36</div><div class="line">37</div><div class="line">38</div><div class="line">39</div><div class="line">40</div><div class="line">41</div><div class="line">42</div><div class="line">43</div><div class="line">44</div><div class="line">45</div><div class="line">46</div><div class="line">47</div><div class="line">48</div><div class="line">49</div><div class="line">50</div><div class="line">51</div><div class="line">52</div><div class="line">53</div><div class="line">54</div><div class="line">55</div><div class="line">56</div><div class="line">57</div><div class="line">58</div><div class="line">59</div><div class="line">60</div><div class="line">61</div><div class="line">62</div><div class="line">63</div><div class="line">64</div><div class="line">65</div><div class="line">66</div><div class="line">67</div><div class="line">68</div><div class="line">69</div><div class="line">70</div><div class="line">71</div><div class="line">72</div><div class="line">73</div><div class="line">74</div><div class="line">75</div><div class="line">76</div><div class="line">77</div><div class="line">78</div><div class="line">79</div><div class="line">80</div><div class="line">81</div><div class="line">82</div><div class="line">83</div><div class="line">84</div><div class="line">85</div><div class="line">86</div><div class="line">87</div><div class="line">88</div><div class="line">89</div><div class="line">90</div><div class="line">91</div><div class="line">92</div><div class="line">93</div><div class="line">94</div><div class="line">95</div><div class="line">96</div><div class="line">97</div><div class="line">98</div><div class="line">99</div><div class="line">100</div><div class="line">101</div><div class="line">102</div><div class="line">103</div><div class="line">104</div><div class="line">105</div><div class="line">106</div><div class="line">107</div><div class="line">108</div><div class="line">109</div></pre></td><td class="code"><pre><div class="line">//将这段代码复制到底部</div><div class="line">QUEST_NEWPETYORN //将QUEST_NEWPETYORN改为QUEST_YOURNAME</div><div class="line">&#123;</div><div class="line">	SetTitle</div><div class="line">	(</div><div class="line">		IDS_PROPQUEST_INC_001327</div><div class="line">	);</div><div class="line">	</div><div class="line">	setting</div><div class="line">	&#123;</div><div class="line">		</div><div class="line">		SetCharacter( <span class="string">"MaFl_Loyah"</span> );</div><div class="line">			//这是NPC,当你达到所需条件时会给你任务.你可以更改为任何你想要的NPC.</div><div class="line">		SetEndCondCharacter( <span class="string">"MaFl_Loyah"</span>, 7169, 3208, QUEST_DESTINATION_ID_0000 );</div><div class="line">			 //这是该NPC所在位置.</div><div class="line">		SetBeginCondLevel( 5, 15 );</div><div class="line">			//这是可以接受任务的级别,以及可以接受任务的最高级别.</div><div class="line">		SetBeginCondParty( 0, 0, 0, 0 );</div><div class="line">		SetBeginCondJob( JOB_VAGRANT );</div><div class="line">			//这是接受任务的职业.</div><div class="line">		SetEndCondItem( -1, 0, -1, II_SYS_SYS_QUE_YORN, 1, 7068, 4125, QUEST_DESTINATION_ID_0000 );</div><div class="line">			//达成任务所需的东西(II_SYS_SYS_QUE_YORN)以及数量(1)以及坐标(7068, 4125)</div><div class="line">		SetEndRemoveItem( 0, II_SYS_SYS_QUE_YORN, 1 );</div><div class="line">			//完成任务获得物品以及数量</div><div class="line">		SetEndRewardGold( 15000, 15000 );</div><div class="line">			//完成任务获得的金币</div><div class="line">		SetHeadQuest( 6004 );</div><div class="line">	&#125;</div><div class="line"></div><div class="line">	SetDialog</div><div class="line">	(</div><div class="line">		QSAY_BEGIN1, </div><div class="line">		IDS_PROPQUEST_INC_001328	</div><div class="line">			//第一句对话</div><div class="line">	);</div><div class="line">	</div><div class="line">	SetDialog</div><div class="line">	(</div><div class="line">		QSAY_BEGIN2, </div><div class="line">		IDS_PROPQUEST_INC_001329	</div><div class="line">	);</div><div class="line"></div><div class="line">	SetDialog</div><div class="line">	(</div><div class="line">		QSAY_BEGIN3, </div><div class="line">		IDS_PROPQUEST_INC_001330</div><div class="line">	);</div><div class="line"></div><div class="line">	SetDialog</div><div class="line">	(</div><div class="line">		QSAY_BEGIN4, </div><div class="line">		IDS_PROPQUEST_INC_001331	</div><div class="line">	);</div><div class="line"></div><div class="line">	SetDialog</div><div class="line">	(</div><div class="line">		QSAY_BEGIN5, </div><div class="line">		IDS_PROPQUEST_INC_001332	</div><div class="line">	);</div><div class="line">		</div><div class="line">	SetDialog</div><div class="line">	(</div><div class="line">		QSAY_BEGIN_YES,</div><div class="line">		IDS_PROPQUEST_INC_001333	</div><div class="line">			//接受任务的对话</div><div class="line">	);</div><div class="line"></div><div class="line">	SetDialog</div><div class="line">	(</div><div class="line">		QSAY_BEGIN_NO, </div><div class="line">		IDS_PROPQUEST_INC_001334</div><div class="line">			//拒绝任务的对话</div><div class="line">	);</div><div class="line"></div><div class="line">	SetDialog</div><div class="line">	(</div><div class="line">		QSAY_END_COMPLETE1, </div><div class="line">		IDS_PROPQUEST_INC_001335</div><div class="line">			//完成任务的对话</div><div class="line">	);</div><div class="line">	</div><div class="line">	SetDialog</div><div class="line">	(</div><div class="line">		QSAY_END_FAILURE1,</div><div class="line">		IDS_PROPQUEST_INC_001336</div><div class="line">			//未完成任务的对话</div><div class="line">	);</div><div class="line"></div><div class="line">	state 0</div><div class="line">	&#123;</div><div class="line"></div><div class="line">		SetDesc</div><div class="line">		(</div><div class="line">			IDS_PROPQUEST_INC_001337</div><div class="line">		);</div><div class="line">		</div><div class="line">	&#125;</div><div class="line"></div><div class="line">	state 14</div><div class="line">	&#123;</div><div class="line"></div><div class="line">		SetDesc</div><div class="line">		(</div><div class="line">			IDS_PROPQUEST_INC_001338</div><div class="line"></div><div class="line">		);</div><div class="line">		</div><div class="line">	&#125;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
-<p>完成后保存,用ResEditor替换DataSub1.res中的两个文件.</p>
-]]></content:encoded>
-      
-      <comments>http://nai-8.com/2017/04/19/%E5%A6%82%E4%BD%95%E5%88%9B%E5%BB%BA%E4%B8%80%E4%B8%AA%E6%96%B0%E7%9A%84%E4%BB%BB%E5%8A%A1/#disqus_thread</comments>
     </item>
     
   </channel>
